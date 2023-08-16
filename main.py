@@ -1,5 +1,4 @@
-import utime
-from led_control import *
+from machine import Pin
+from utime import sleep_ms
 
-periodically_blink_ob_led(250)
-    
+button = Pin(14, Pin.IN)
