@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rshell cp main.py /pyboard/main.py
+rshell --buffer-size 512 -p /dev/ttyACM0 repl

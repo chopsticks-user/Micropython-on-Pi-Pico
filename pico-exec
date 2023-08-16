@@ -2,4 +2,3 @@
 
 rshell cp main.py /pyboard/main.py
 rshell "repl ~ import machine ~ machine.soft_reset() ~"
-echo ''
